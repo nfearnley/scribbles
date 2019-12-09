@@ -23,9 +23,9 @@
   },
   "homepage": "https://github.com/nfearnley/scribbles#readme",
   "dependencies": {
-    "discord.js": "^11.5.1",
     "dotenv": "^8.2.0",
     "dotenv-expand": "^5.1.0",
+    "eris": "^0.11.1",
     "loglevel": "^1.6.6"
   },
   "devDependencies": {

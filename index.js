@@ -2,15 +2,16 @@
 
 const log = require("loglevel");
 
-const Discord = require("discord.js");
-const client = new Discord.Client();
+const Eris = require("eris");
 
 const config = require("./config");
 
 log.enableAll();
 
-client.once("ready", function() {
+var bot = new Eris(config.discord.token);
+
+bot.once("ready", function() {
     log.info("Ready!");
 });
 
-client.login(config.discord.token);
+bot.connect();
