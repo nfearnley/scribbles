@@ -7,6 +7,8 @@ const client = new Discord.Client();
 
 const config = require("./config");
 
+log.enableAll();
+
 client.once("ready", function() {
     log.info("Ready!");
 });
