@@ -1,0 +1,25 @@
+{
+  "name": "scribbles",
+  "version": "1.0.0",
+  "description": "Discord welcome and role management bot",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nfearnley/scribbles.git"
+  },
+  "keywords": [
+    "discord",
+    "bot",
+    "welcome",
+    "roles"
+  ],
+  "author": "Natalie Fearnley",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nfearnley/scribbles/issues"
+  },
+  "homepage": "https://github.com/nfearnley/scribbles#readme"
+}
