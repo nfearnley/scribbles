@@ -4,9 +4,9 @@ const dotenv = require("dotenv");
 const dotenvExpand = require("dotenv-expand");
 dotenvExpand(dotenv.config());
 
-config = {};
+var config = {};
 
 config.discord = {
-    token: process.env.DISCORD_TOKEN;
+    token: process.env.DISCORD_TOKEN
 };
 
