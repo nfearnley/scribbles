@@ -26,7 +26,10 @@
     "dotenv": "^8.2.0",
     "dotenv-expand": "^5.1.0",
     "eris": "^0.11.1",
-    "loglevel": "^1.6.6"
+    "erisplus": "github:nfearnley/erisplus#master",
+    "glob": "^7.1.6",
+    "loglevel": "^1.6.6",
+    "require-reload": "^0.2.2"
   },
   "devDependencies": {
     "eslint": "^6.7.2"
