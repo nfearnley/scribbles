@@ -10,5 +10,7 @@ config.discord = {
     token: process.env.DISCORD_TOKEN
 };
 
+config.ownerId = process.env.OWNER_ID;
+
 module.exports = config;
 
